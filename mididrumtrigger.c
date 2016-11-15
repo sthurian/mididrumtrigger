@@ -3,11 +3,19 @@
 #include <string.h>
 #include <stdio.h>
 
+<<<<<<< HEAD
+#include <lv2/lv2plug.in/ns/ext/atom/util.h>
+#include <lv2/lv2plug.in/ns/ext/midi/midi.h>
+#include <lv2/lv2plug.in/ns/ext/urid/urid.h>
+#include <lv2/lv2plug.in/ns/lv2core/lv2.h>
+#define TRIGGER_URI "http://www.steffen-thurian.de/lv2/mididrumtrigger"
+=======
 #include "/usr/include/lv2/lv2plug.in/ns/ext/atom/util.h"
 #include "/usr/include/lv2/lv2plug.in/ns/ext/midi/midi.h"
 #include "/usr/include/lv2/lv2plug.in/ns/ext/urid/urid.h"
 #include "/usr/include/lv2/lv2plug.in/ns/lv2core/lv2.h"
 #define TRIGGER_URI "http://www.steffen-thurian.de/lv2/trigger"
+>>>>>>> 553a10b0382771dcb42c81b99b89433e3071f2f5
 
 typedef enum {
 	TRIGGER_THRESHOLD   = 0,
