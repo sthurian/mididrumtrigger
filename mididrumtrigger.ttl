@@ -17,7 +17,7 @@
 	a lv2:Plugin ;
 	doap:maintainer <http://www.steffen-thurian.de> ;
 	doap:name "MIDI-Drum-Trigger" ;
-	doap:license <http://opensource.org/licenses/isc> ;
+	doap:license <https://creativecommons.org/licenses/by-sa/4.0/> ;
 	lv2:optionalFeature lv2:hardRTCapable ;
 	lv2:requiredFeature urid:map;
 	lv2:port [
